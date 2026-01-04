@@ -1,4 +1,4 @@
-# ReactTraining1TicTacToe
+# ReactTraining1TicTacToe - Setup
 
 Starting with the instructions found here:
 
@@ -38,3 +38,30 @@ Including ```node_modules/``` didn't seem correct so a git ignore file was added
 
 - https://github.com/github/gitignore/blob/main/Node.gitignore
 - https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+## React Dev Tools for Chrome
+
+Viewing the F12 console prompts you to install a browser extension, adding the "Components" and "Profiler" tabs to Chrome.
+
+https://react.dev/learn/react-developer-tools
+
+![alt text](img/ChromeExtension.png "React Developer Tools Chrome Extension")
+
+*This appears to be built into CodeSandbox but I'm not using that.*
+
+# Building the board
+
+## Better logger with more content
+
+A minor improvement to the suggested code which gives more context to the console output, telling us which square was clicked.
+
+```
+function Square({ value }) {
+    function handleClick() {
+        console.log(value + ' clicked!');
+    }
+```
+
+# Completing the game
+
+TBC
