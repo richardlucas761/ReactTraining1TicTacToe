@@ -49,19 +49,24 @@ https://react.dev/learn/react-developer-tools
 
 *This appears to be built into CodeSandbox but I'm not using that.*
 
-# Building the board
+# Adding time travel
 
-## Better logger with more content
+TBC
 
-A minor improvement to the suggested code which gives more context to the console output, telling us which square was clicked.
+---
 
-```
-function Square({ value }) {
-    function handleClick() {
-        console.log(value + ' clicked!');
-    }
-```
+# TODO
 
-# Completing the game
+## What about this state where there is no winner?
+
+![alt text](img/NoWinner.png "No Winner")
+
+Shouldn't we inform the user the game has ended and there was no winner?
+
+## How do we unit test this?
+
+TBC
+
+## How do we break the content of App.js into multiple files?
 
 TBC
