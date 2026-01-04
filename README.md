@@ -24,20 +24,17 @@ The file structure and file content was visible in CodeSandbox so it was possibl
 
 Perhaps CodeSandbox expects you to log in before you can download the files?
 
-## Visual Studio 2026 Community edition
-
-Editing files in this version of VS.
-
 ## npm install
 
-Creating the required files in this repo manually enabled this command to be run.
+Creating the required files in this repo manually enabled ```npm install``` to be run.
 
 ## npm start
 
-Launched the same application as had been seen in the "Preview" in CodeSandbox, but running locally.
+```npm start``` launched the same application as had been seen in the "Preview" in CodeSandbox, but running locally.
 
 ## Git Ignore
 
-Including ```node_modules/``` didn't seem correct so this git ignore file was added https://github.com/github/gitignore/blob/main/Node.gitignore
+Including ```node_modules/``` didn't seem correct so a git ignore file was added, the second file because I'm editing in VS2026.
 
-*Do we also want to include the ```package-lock.json``` file in source control? Can fix later.*
+- https://github.com/github/gitignore/blob/main/Node.gitignore
+- https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
