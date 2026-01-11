@@ -39,11 +39,17 @@ export default function Board() {
         setXIsNext(!xIsNext);
     }
 
+    const filled = allSquaresFilled(squares);
+
     const winner = calculateWinner(squares);
+
     let status;
+
     if (winner) {
         status = "Winner: " + winner;
-    } else {
+    } else if (!winner && filled) {
+        status = "No winner!"
+    } else if (!filled) {
         status = "Next player: " + (xIsNext ? "X" : "O");
     }
 
@@ -67,6 +73,22 @@ export default function Board() {
             </div>
         </>
     );
+}
+
+/**
+ * Determine if all squares are now filled.
+ * @param {any} squares a list of squares to check if all squares are now filled.
+ */
+function allSquaresFilled(squares) {
+    for (let i = 0; i < squares.length; i++) {
+        // If there is at least one square which is not null then the squares are not filled.
+        if (squares[i] === null) {
+            return false;
+        }
+    }
+
+    // We didn't find any non-null squares so all squares all filled.
+    return true;
 }
 
 /**

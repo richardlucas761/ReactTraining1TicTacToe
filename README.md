@@ -26,7 +26,7 @@ Perhaps CodeSandbox expects you to log in before you can download the files?
 
 ## npm install
 
-Creating the required files in this repo manually enabled ```npm install``` to be run.
+Creating the required files in this repo (literally copy-and-pasting out of CodeSandbox) manually enabled ```npm install``` to be run.
 
 ## npm start
 
@@ -56,12 +56,6 @@ TBC
 ---
 
 # TODO
-
-## What about this state where there is no winner?
-
-![alt text](img/NoWinner.png "No Winner")
-
-Shouldn't we inform the user the game has ended and there was no winner?
 
 ## How do we unit test this?
 
