@@ -49,20 +49,12 @@ https://react.dev/learn/react-developer-tools
 
 *This appears to be built into CodeSandbox but I'm not using that.*
 
-# Adding time travel
-
-TBC
-
 ---
 
 # TODO
 
-## Add lint
-
-## How do we unit test this?
-
-TBC
-
-## How do we break the content of App.js into multiple files?
-
-TBC
+- Add lint
+- Fix issues highlighted by SonarQube
+- Add a facility to clear the board and start a new game
+- How do we unit test this?
+- How do we break the content of App.js into multiple files?
